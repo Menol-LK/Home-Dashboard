@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\pub</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/HomeDashboard.dll">
+      <publishTime>03/13/2017 14:56:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap-datetimepicker-build.less">
+      <publishTime>03/09/2017 14:18:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-datetimepicker.css">
+      <publishTime>03/09/2017 14:20:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap-datetimepicker.min.css">
+      <publishTime>03/09/2017 14:20:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap/alerts.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/badges.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/breadcrumbs.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/button-groups.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/buttons.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/carousel.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/close.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/code.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/component-animations.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/dropdowns.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/forms.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/glyphicons.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/grid.less">
+      <publishTime>03/09/2017 10:43:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/input-groups.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/jumbotron.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/labels.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/list-group.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/media.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/alerts.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/background-variant.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/border-radius.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/buttons.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/center-block.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/clearfix.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/forms.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/gradients.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/grid-framework.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/grid.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/hide-text.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/image.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/labels.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/list-group.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/nav-divider.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/nav-vertical-align.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/opacity.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/pagination.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/panels.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/progress-bar.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/reset-filter.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/reset-text.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/resize.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/responsive-visibility.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/size.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/tab-focus.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/table-row.less">
+      <publishTime>03/09/2017 10:42:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/text-emphasis.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/text-overflow.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins/vendor-prefixes.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/modals.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/navbar.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/navs.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/normalize.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/pager.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/pagination.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/panels.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/popovers.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/print.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/progress-bars.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/responsive-embed.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/responsive-utilities.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/scaffolding.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/tables.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/theme.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/thumbnails.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/tooltip.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/type.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/utilities.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/variables.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/wells.less">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/custom.css">
+      <publishTime>03/09/2016 08:35:32</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/09/2017 10:42:58</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/09/2017 10:42:57</publishTime>
+    </File>
+    <File Include="Content/styles-for-tasks.css">
+      <publishTime>02/28/2017 14:59:53</publishTime>
+    </File>
+    <File Include="Content/_bootstrap-datetimepicker.less">
+      <publishTime>03/09/2017 14:18:10</publishTime>
+    </File>
+    <File Include="DashApp/Auth/authModule.js">
+      <publishTime>03/09/2016 16:05:59</publishTime>
+    </File>
+    <File Include="DashApp/Auth/authService.js">
+      <publishTime>03/09/2016 11:31:25</publishTime>
+    </File>
+    <File Include="DashApp/Auth/currentUserService.js">
+      <publishTime>02/09/2017 14:09:17</publishTime>
+    </File>
+    <File Include="DashApp/Auth/loginRegister.html">
+      <publishTime>03/09/2016 16:26:18</publishTime>
+    </File>
+    <File Include="DashApp/Comon/commsModule.js">
+      <publishTime>03/13/2017 11:01:39</publishTime>
+    </File>
+    <File Include="DashApp/dashApp.js">
+      <publishTime>03/08/2017 23:20:04</publishTime>
+    </File>
+    <File Include="DashApp/globalController.js">
+      <publishTime>03/09/2016 16:41:50</publishTime>
+    </File>
+    <File Include="DashApp/Menus/menuComms.js">
+      <publishTime>03/11/2017 14:49:19</publishTime>
+    </File>
+    <File Include="DashApp/Menus/menuController.js">
+      <publishTime>03/11/2017 15:31:24</publishTime>
+    </File>
+    <File Include="DashApp/Menus/menus.html">
+      <publishTime>03/11/2017 14:12:25</publishTime>
+    </File>
+    <File Include="DashApp/Menus/menusModule.js">
+      <publishTime>03/08/2017 23:28:33</publishTime>
+    </File>
+    <File Include="DashApp/Tasks/taskComms.js">
+      <publishTime>03/08/2017 22:43:53</publishTime>
+    </File>
+    <File Include="DashApp/Tasks/taskList.html">
+      <publishTime>03/11/2017 14:00:15</publishTime>
+    </File>
+    <File Include="DashApp/Tasks/taskResource.js">
+      <publishTime>03/08/2017 22:24:43</publishTime>
+    </File>
+    <File Include="DashApp/Tasks/tasksListController.js">
+      <publishTime>03/11/2017 15:35:17</publishTime>
+    </File>
+    <File Include="DashApp/Tasks/tasksModule.js">
+      <publishTime>03/09/2016 16:46:35</publishTime>
+    </File>
+    <File Include="DashApp/Weather/weatherController.js">
+      <publishTime>03/07/2017 15:12:20</publishTime>
+    </File>
+    <File Include="DashApp/Weather/weatherWidget.html">
+      <publishTime>03/10/2016 11:19:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/24/2016 14:46:27</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/24/2016 14:46:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/24/2016 14:46:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/24/2016 14:46:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/24/2016 14:46:26</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>03/09/2017 14:34:46</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/09/2017 14:20:33</publishTime>
+    </File>
+    <File Include="Scripts/angular-cookies.js">
+      <publishTime>03/09/2016 16:28:44</publishTime>
+    </File>
+    <File Include="Scripts/angular-cookies.min.js">
+      <publishTime>03/09/2016 16:28:44</publishTime>
+    </File>
+    <File Include="Scripts/angular-cookies.min.js.map">
+      <publishTime>03/09/2016 16:28:43</publishTime>
+    </File>
+    <File Include="Scripts/angular-mocks.js">
+      <publishTime>02/24/2016 14:45:13</publishTime>
+    </File>
+    <File Include="Scripts/angular-resource.js">
+      <publishTime>03/03/2016 14:50:55</publishTime>
+    </File>
+    <File Include="Scripts/angular-resource.min.js">
+      <publishTime>03/03/2016 14:50:55</publishTime>
+    </File>
+    <File Include="Scripts/angular-resource.min.js.map">
+      <publishTime>03/03/2016 14:50:55</publishTime>
+    </File>
+    <File Include="Scripts/angular-sanitize.js">
+      <publishTime>03/04/2016 14:24:03</publishTime>
+    </File>
+    <File Include="Scripts/angular-sanitize.min.js">
+      <publishTime>03/04/2016 14:24:03</publishTime>
+    </File>
+    <File Include="Scripts/angular-sanitize.min.js.map">
+      <publishTime>03/04/2016 14:24:03</publishTime>
+    </File>
+    <File Include="Scripts/angular.js">
+      <publishTime>03/08/2017 23:20:21</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js">
+      <publishTime>02/24/2016 14:45:13</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js.map">
+      <publishTime>03/08/2017 23:20:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-datetimepicker.js">
+      <publishTime>03/09/2017 14:20:33</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-datetimepicker.min.js">
+      <publishTime>03/09/2017 14:20:33</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/24/2016 14:46:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/24/2016 14:46:26</publishTime>
+    </File>
+    <File Include="Scripts/Chart.js">
+      <publishTime>02/29/2016 15:52:06</publishTime>
+    </File>
+    <File Include="Scripts/Chart.min.js">
+      <publishTime>02/29/2016 15:52:06</publishTime>
+    </File>
+    <File Include="Scripts/ChartManager.js">
+      <publishTime>03/01/2016 12:28:58</publishTime>
+    </File>
+    <File Include="Scripts/homedash-custom.js">
+      <publishTime>02/29/2016 15:00:20</publishTime>
+    </File>
+    <File Include="Scripts/homedash-document-ready.js">
+      <publishTime>03/03/2017 11:47:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.js">
+      <publishTime>03/09/2017 14:16:21</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.min.js">
+      <publishTime>03/09/2017 14:16:21</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.min.map">
+      <publishTime>03/09/2017 14:16:21</publishTime>
+    </File>
+    <File Include="Scripts/moment-with-locales.js">
+      <publishTime>02/29/2016 14:22:42</publishTime>
+    </File>
+    <File Include="Scripts/moment-with-locales.min.js">
+      <publishTime>02/29/2016 14:22:42</publishTime>
+    </File>
+    <File Include="Scripts/moment.js">
+      <publishTime>02/29/2016 14:22:42</publishTime>
+    </File>
+    <File Include="Scripts/moment.min.js">
+      <publishTime>02/29/2016 14:22:42</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-clear-day.svg">
+      <publishTime>03/03/2016 09:08:32</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-clear-night.svg">
+      <publishTime>03/01/2016 10:38:20</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-cloudy.svg">
+      <publishTime>03/01/2016 11:00:59</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-fog.svg">
+      <publishTime>03/01/2016 10:55:43</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-hail.svg">
+      <publishTime>03/01/2016 11:05:55</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-partly-cloudy-day.svg">
+      <publishTime>03/01/2016 11:04:16</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-partly-cloudy-night.svg">
+      <publishTime>03/01/2016 11:04:46</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-rain.svg">
+      <publishTime>03/01/2016 09:54:53</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-sleet.svg">
+      <publishTime>03/01/2016 10:49:39</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-snow.svg">
+      <publishTime>03/01/2016 10:40:40</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-thunderstorm.svg">
+      <publishTime>03/01/2016 11:07:44</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-tornado.svg">
+      <publishTime>03/01/2016 11:08:10</publishTime>
+    </File>
+    <File Include="WeatherIcons/cmr-wind.svg">
+      <publishTime>03/01/2016 10:53:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/13/2017 14:56:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

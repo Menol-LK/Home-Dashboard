@@ -1,0 +1,6 @@
+C:\Users\M&S\Dropbox\B\HomeDash\HomeDashboard\HomeDashboard\bin\HomeDashboard.dll.config
+C:\Users\M&S\Dropbox\B\HomeDash\HomeDashboard\HomeDashboard\bin\HomeDashboard.dll
+C:\Users\M&S\Dropbox\B\HomeDash\HomeDashboard\HomeDashboard\bin\HomeDashboard.pdb
+C:\Users\M&S\Dropbox\B\HomeDash\HomeDashboard\HomeDashboard\obj\Release\HomeDashboard.csprojResolveAssemblyReference.cache
+C:\Users\M&S\Dropbox\B\HomeDash\HomeDashboard\HomeDashboard\obj\Release\HomeDashboard.dll
+C:\Users\M&S\Dropbox\B\HomeDash\HomeDashboard\HomeDashboard\obj\Release\HomeDashboard.pdb

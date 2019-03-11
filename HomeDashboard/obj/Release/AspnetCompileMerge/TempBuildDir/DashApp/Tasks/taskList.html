@@ -1,0 +1,76 @@
+﻿<div class="col-md-3 col-md-offset-1" style="height:100px">
+    <div ng-if="globalVM.currentUser.isLoggedIn()">
+        <div id="tasksList" ng-controller="tasksListController as taskListVM">
+            <div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>Tasks</h3>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" rel="popover" ng-click="taskListVM.openAddTaskModal()">
+                            <h3><i class="glyphicon glyphicon-plus"></i></h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div ng-repeat="task in taskListVM.tasks">
+                <div style="margin-bottom:3px" ng-class="{'alert alert-danger' : taskListVM.getTaskStatus(task.dueDateTime) == 'red', 'alert alert-warning' : taskListVM.getTaskStatus(task.dueDateTime) == 'amber', 'alert alert-info' : taskListVM.getTaskStatus(task.dueDateTime) == 'normal'}">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <span><b>{{task.dueDateTime | date : 'MMM dd'}}</b></span></br>
+                            <span>{{task.title}}</span>
+                        </div>
+                        <div class="col-md-2 text-right">
+                            <a href="#" ng-click="taskListVM.deleteTask(task.id)">
+                                <i class="glyphicon glyphicon-trash"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal add task -->
+            <div class="modal fade" id="addTaskModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Add task</h4>
+                        </div>
+                        <div class="modal-body">
+                            <fieldset>
+                                <div class="form-group">
+                                    <label for="taskPassword">Password</label>
+                                    <input type="password" class="form-control" ng-model="password"/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="taskTitle">Title</label>
+                                    <input type="text" class="form-control" ng-model="title"/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="taskDesc">Description</label>
+                                    <textarea class="form-control" rows="3" ng-model="description" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="taskDueDate">Due date</label>
+                                    <input type="date" class="form-control" ng-model="dueDate" />
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" ng-click="taskListVM.addTask()">Save changes</button>
+                        </div>                                                                                                    
+                    </div>                                                                                                     
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-if="!globalVM.currentUser.isLoggedIn()" class="alert alert-warning alert-dismissible" style="text-align:center" role="alert">
+        <span>You need to log in to view tasks!</span>
+    </div>
+</div>

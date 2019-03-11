@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/custom.css" rel="stylesheet" />
+    <link href="Content/styles-for-tasks.css" rel="stylesheet" />
+    <link href="Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    
+</head>
+
+<body ng-app="dashApp" ng-controller="globalController as globalVM">
+
+    <!--<div ng-include="'DashApp/Auth/loginRegister.html'"></div>-->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div ng-include="'DashApp/Weather/weatherWidget.html'"></div>
+
+            <div ng-include="'DashApp/Tasks/taskList.html'"></div>
+
+            <div ng-include="'DashApp/Menus/menus.html'"></div>
+
+        </div> <!-- row 1 -->
+    </div>
+
+    <script src="Scripts/jquery-1.12.4.min.js"></script>
+    <script src="Scripts/Chart.min.js"></script>
+    <script src="Scripts/ChartManager.js"></script>
+    <script src="Scripts/moment.min.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-resource.min.js"></script>
+    <script src="Scripts/angular-sanitize.min.js"></script>
+    <script src="Scripts/angular-cookies.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/bootstrap-datetimepicker.min.js"></script>
+    
+    <script src="DashApp/dashApp.js"></script>
+    <script src="DashApp/Weather/weatherController.js"></script>
+
+    <!-- common -->
+    <script src="DashApp/Comon/commsModule.js"></script>
+
+    <!-- auth -->
+    <script src="DashApp/Auth/authModule.js"></script>
+    <script src="DashApp/Auth/authService.js"></script>
+    <script src="DashApp/Auth/currentUserService.js"></script>
+
+    <!-- tasks -->
+    <script src="DashApp/Tasks/tasksModule.js"></script>
+    <script src="DashApp/Tasks/taskComms.js"></script>
+    <script src="DashApp/Tasks/tasksListController.js"></script>
+
+    <!-- recipes -->
+    <script src="DashApp/Menus/menusModule.js"></script>
+    <script src="DashApp/Menus/menuComms.js"></script>
+    <script src="DashApp/Menus/menuController.js"></script>
+
+    <script src="DashApp/globalController.js"></script>
+
+    <script src="Scripts/homedash-custom.js"></script>
+    <!--<script src="Scripts/homedash-document-ready.js"></script>-->
+
+</body>
+</html>
+

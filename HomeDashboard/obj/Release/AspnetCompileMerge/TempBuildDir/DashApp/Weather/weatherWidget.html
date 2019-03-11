@@ -1,0 +1,57 @@
+﻿<div id="weatherMain" class="col-md-3 weather-panel" ng-controller="weatherController" ng-cloak>
+    <h3>{{location}}</h3>
+    <h2>
+        <img class="weather-icon" ng-src="{{weatherIcon}}" title="{{iconTitle}}" />&nbsp;&nbsp;{{apparentTemperature}} &deg;C <span style="font-size:15px">(real feel)</span>
+    </h2>
+    <h5>{{weatherDescription}}</h5>
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <td>Temperature</td>
+                <td class="weather-value-column">{{temperature}}&deg;C</td>
+            </tr>
+            <tr>
+                <td>Min. Temp.</td>
+                <td class="weather-value-column"><b>{{temperatureMin}}&deg;C</b> at {{temperatureMinTime}}</tdclass>
+            </tr>
+            <tr>
+                <td>Max. Temp.</td>
+                <td class="weather-value-column"><b>{{temperatureMax}}&deg;C</b> at {{temperatureMaxTime}}</td>
+            </tr>
+            <tr>
+                <td>Wind speed</td>
+                <td class="weather-value-column">{{windSpeedMPH}} MPH</td>
+            </tr>
+            <tr>
+                <td>Cloudiness</td>
+                <td class="weather-value-column">{{cloudsPercentage}}%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <h4>Next {{ hourIcons.length }} hours</h4>
+        <div class="day-icon" ng-repeat="hourIcon in hourIcons">
+            <div class="day-text">{{ hourIcon.text }}</div>
+            <img class="weather-icon" ng-src="{{ hourIcon.iconPath }}" title="{{ hourIcon.summary }}">
+            <div class="temperature" ng-bind-html=hourIcon.temperature></div>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <h4>Next {{ dayIcons.length }} days</h4>
+        <div>
+            <div class="day-icon" ng-repeat="dayIcon in dayIcons">
+                <div class="day-text">{{ dayIcon.text }}</div>
+                <img class="weather-icon" ng-src="{{ dayIcon.iconPath }}" title="{{ dayIcon.summary }}">
+                <div class="temperature-smallfont" ng-bind-html=dayIcon.temperature></div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <h4>Temperature in next <span id="hourCount"></span> hours</h4>
+        <canvas id="hourlyTempChart" style="min-width:130px; width:100%"></canvas>
+    </div>
+
+</div>

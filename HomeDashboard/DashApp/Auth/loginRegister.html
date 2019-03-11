@@ -1,0 +1,43 @@
+﻿<nav class="navbar navbar-right" style="margin-right:0px;">
+    <div ng-if="!globalVM.currentUser.isLoggedIn()" id="login">
+        <form class="navbar-form" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Username" ng-model="globalVM.loginRequestData.userName">
+                <input type="password" class="form-control" placeholder="Password" ng-model="globalVM.loginRequestData.password">
+            </div>
+            <button type="submit" class="btn btn-default" ng-click="globalVM.Login()">Submit</button>
+            <a href="#" onclick="toggleLoginRegister();" style="vertical-align:bottom">Register</a>
+        </form>
+    </div> <!--login-->
+    <div id="register" style="display:none">
+        <form class="navbar-form" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Username" ng-model="globalVM.loginRequestData.userName">
+                <input type="password" class="form-control" placeholder="Password" ng-model="globalVM.loginRequestData.password">
+                <input type="password" class="form-control" placeholder="Confirm Password" ng-model="globalVM.loginRequestData.confirmPassword">
+            </div>
+            <button type="submit" class="btn btn-default" ng-click="globalVM.Register()">Submit</button>
+            <a href="#" onclick="toggleLoginRegister();" style="vertical-align:bottom">Cancel</a>
+        </form>
+    </div>
+    <div ng-if="globalVM.currentUser.isLoggedIn()" id="loggedIn" style="margin-right: 100px;">
+        Logged in as {{globalVM.currentUser.userName}}. logout
+    </div>
+    <div>
+        <span>{{globalVM.loginMsg}}</span>
+    </div>
+</nav>
+
+<script>
+    function toggleLoginRegister() {
+        //debugger;
+        if ($('#register').css('display') == 'none') {
+            $('#register').show();
+            $('#login').hide();
+        }
+        else {
+            $('#login').show();
+            $('#register').hide();
+        }
+    }
+</script>

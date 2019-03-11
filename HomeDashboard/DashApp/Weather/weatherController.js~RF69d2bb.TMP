@@ -1,0 +1,51 @@
+﻿(function (app) {
+    var weatherController = function ($scope, $http) {
+
+        var init = function init() {
+            $http({
+                method: 'GET',
+                url: 'https://api.forecast.io/forecast/f89a25fd10cf85277589707e33ffd515/40.463487,17.248535?callback=parseResponse' // url: 'http://api.openweathermap.org/data/2.5/weather?q=Manchester,uk&appid=b36afb50b1eac0a76344f57be401bba2&units=metric'
+            }).then(function (response) {
+                
+                console.log(response.data);
+
+                $scope.location = response.data.name + ', ' + response.data.sys.country;
+
+                $scope.temperature = response.data.main.temp;
+                $scope.temperatureMax = response.data.main.temp_max;
+                $scope.temperatureMin = response.data.main.temp_min;
+                
+                $scope.windSpeedMPH = roundDecimal(response.data.wind.speed * 2.236936, 2);
+                $scope.cloudsPercentage = response.data.clouds.all;
+
+                $scope.weatherDescription = response.data.weather[0].description;
+                $scope.weatherIcon = 'http://openweathermap.org/img/w/' + response.data.weather[0].icon + '.png';
+
+            });
+        }
+
+        init();
+    };
+
+
+    var weatherForecastController = function ($scope, $http) {
+
+        var init = function init() {
+            $http({
+                method: 'GET',
+                url: 'http://api.openweathermap.org/data/2.5/forecast?q=Manchester,uk&appid=b36afb50b1eac0a76344f57be401bba2'
+            }).then(function (response) {
+
+                console.log(response.data);
+
+            });
+        }
+
+        init();
+    };
+
+    // register controllers
+    app.controller("weatherController", ["$scope", "$http", weatherController]); 
+    app.controller("weatherForecastController", ["$scope", "$http", weatherForecastController]);
+
+}(angular.module("dashApp")));
